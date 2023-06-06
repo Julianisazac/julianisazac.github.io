@@ -1,0 +1,55 @@
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Lato';
+    background-image: url(./imagenes/fondo-playa-verano-rodado-estilo-bokeh_53876-102478.avif);
+    color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .logo img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.titulo{
+    font-family: 'Kanit', sans-serif;
+    font-size: 63px;
+    color: aliceblue;
+    padding: 50px 50px;
+}
+
+h2{
+    font-family:'Kanit', sans-serif;
+    font-size: 48px;
+    color: aliceblue;
+    padding: 0px 50px;
+}
+
+.p2{
+    padding: 28px 40px;
+    font-size: 35px; 
+    font-family: 'Kanit', sans-serif;
+    color: rgb(1, 9, 8);
+}
+
+
+
+
+
+
+
+
+
+
+
+

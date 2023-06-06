@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background: rgb(188, 234, 234);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu nav div img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.menu nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu nav ul li{
+    position: relative;
+}
+
+a{
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(23, 84, 61);
+    font-family: 'Kanit', sans-serif;
+}
+
+a:hover{
+    color: white;
+}
+
+.menu nav .checkBtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.video{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+}
+
+.inicio .btn-producto{
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 130px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 500px;
+}
+
+
+@media (max-width: 1250px) {
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .inicio .btn-producto{
+        font-size: 90px;
+    }
+    .menu nav div img{
+        width: 100px;
+        border-radius: 50%;
+    }
+    .menu nav div ul li{
+        font-size: 12px;
+        list-style-type: style;
+        flex-direction: column;
+    }
+    a{
+        font-size: 12px;
+    }
+
+
+
+}
